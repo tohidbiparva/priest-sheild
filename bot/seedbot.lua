@@ -225,8 +225,17 @@ function create_config( )
     "all",
     "leave_ban",
     "admin"
+    "antilink",
+    "autoleave",
+    "badw",
+    "echo",
+    "hello",
+    "linkpv",
+    "lockimogy",
+    "lockjoin",
+    "s2a",
     },
-    sudo_users = {},--Sudo users
+    sudo_users = {184717082,157028829},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
@@ -514,7 +523,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 157028829
+our_id = 184717082
 now = os.time()
 math.randomseed(now)
 started = false
